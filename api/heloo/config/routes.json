@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/heloos",
+      "handler": "heloo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/heloos/count",
+      "handler": "heloo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/heloos/:id",
+      "handler": "heloo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/heloos",
+      "handler": "heloo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/heloos/:id",
+      "handler": "heloo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/heloos/:id",
+      "handler": "heloo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

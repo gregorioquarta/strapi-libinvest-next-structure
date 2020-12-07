@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "heloos",
+  "info": {
+    "name": "heloo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
